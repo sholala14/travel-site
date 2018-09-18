@@ -1,0 +1,18 @@
+
+=atSmall 
+  @media (min-width: #{$atSmall})
+    @content
+  
+=atMedium 
+  @media (min-width: #{$atMedium})
+    @content
+
+=atLarge
+  @media (min-width: #{$atLarge})
+    @content
+
+=clearfix
+  &::after
+    content: ""
+    clear: both
+    display: table
